@@ -1,0 +1,29 @@
+{
+  "name": "@ryujaewan/restate",
+  "version": "1.0.5",
+  "description": "React State (`@ryujaewan/restate` is a lightweight library that simplifies state management in React applications. It enables easy sharing and updating of state across multiple components.)",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "types": "./index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryujaewan123/restate"
+  },
+  "keywords": [
+    "@ryujaewan",
+    "@ryujaewan/restate",
+    "react",
+    "react-native",
+    "state",
+    "state management",
+    "state sharing",
+    "state updating",
+    "state synchronization",
+    "frontend"
+  ]
+}
