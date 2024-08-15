@@ -19,7 +19,6 @@
   - [Examples](#examples)
     - [Multi-Component Updates](#multi-component-updates)
     - [Using `get()` and `set()`](#using-get-and-set)
-  - [Bug Reports and Suggestions](#bug-reports-and-suggestions)
 
 ## Installation
 
@@ -188,11 +187,3 @@ function NonReactiveComponent() {
   return <button onClick={handleClick}>Update User</button>;
 }
 ```
-
-## Bug Reports and Suggestions
-
-If you encounter any bugs or have suggestions for improving the Restate library, please don't hesitate to reach out. We value your feedback and are committed to enhancing the library based on user experiences and needs.
-
-Contact us at: ryujaewan123@gmail.com
-
-Your input helps make Restate better for everyone. Thank you for your support!
