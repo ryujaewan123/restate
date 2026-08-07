@@ -1,29 +1,73 @@
 {
   "name": "@ryujaewan/restate",
-  "version": "1.0.5",
-  "description": "React State (`@ryujaewan/restate` is a lightweight library that simplifies state management in React applications. It enables easy sharing and updating of state across multiple components.)",
-  "main": "index.js",
-  "scripts": {},
-  "author": "",
-  "license": "ISC",
+  "version": "3.0.1",
+  "description": "Provider-free state for React and React Native with explicit IndexedDB and MMKV persistence.",
+  "main": "./index.js",
+  "module": "./dist/index.mjs",
+  "react-native": "./dist/index.native.js",
   "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "react-native": "./dist/index.native.js",
+      "import": "./dist/index.mjs",
+      "require": "./index.js",
+      "default": "./index.js"
+    },
+    "./index": {
+      "types": "./index.d.ts",
+      "react-native": "./dist/index.native.js",
+      "import": "./dist/index.mjs",
+      "require": "./index.js",
+      "default": "./index.js"
+    },
+    "./index.js": {
+      "types": "./index.d.ts",
+      "react-native": "./dist/index.native.js",
+      "import": "./dist/index.mjs",
+      "require": "./index.js",
+      "default": "./index.js"
+    },
+    "./index.d.ts": "./index.d.ts",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "index.d.ts",
+    "index.js",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "README.md"
+  ],
+  "sideEffects": false,
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ryujaewan123/restate"
+    "url": "git+https://github.com/ryu-cheat/ryujaewan.git",
+    "directory": "restate@original"
+  },
+  "homepage": "https://github.com/ryu-cheat/ryujaewan/tree/main/restate%40original#readme",
+  "bugs": {
+    "url": "https://github.com/ryu-cheat/ryujaewan/issues"
   },
   "keywords": [
-    "@ryujaewan",
-    "@ryujaewan/restate",
     "react",
     "react-native",
     "state",
-    "state management",
-    "state sharing",
-    "state updating",
-    "state synchronization",
-    "frontend"
-  ]
+    "state-management",
+    "external-store",
+    "indexeddb",
+    "mmkv",
+    "persistence",
+    "hooks",
+    "typescript"
+  ],
+  "author": "ryujaewan",
+  "license": "ISC"
 }
